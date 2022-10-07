@@ -1,0 +1,49 @@
+apiVersion: v1
+entries:
+  helloworld:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-06T10:56:47.773093823+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 76c93e38148010695f4972e91b0ed7b40f41d6a8a0d8d88a3768ffd7562858db
+    name: helloworld
+    type: application
+    urls:
+    - https://saimohansai.github.io/k8sb06-helm-charts/helloworld-0.1.0.tgz
+    version: 0.1.0
+  jenkins:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 2.361.1
+    created: "2022-10-06T10:56:47.785472918+05:30"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Jenkins is an open source Continuous Integration and Continuous Delivery
+      (CI/CD) server designed to automate the building, testing, and deploying of
+      any software project.
+    digest: 5786f91d64c349b46c280b98644597e5c4f33d5f8be7fe2175ac2fb961a357d3
+    home: https://github.com/bitnami/charts/tree/master/bitnami/jenkins
+    icon: https://bitnami.com/assets/stacks/jenkins/img/jenkins-stack-220x234.png
+    keywords:
+    - jenkins
+    - ci
+    - cd
+    - http
+    - web
+    - application
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: jenkins
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/jenkins
+    - https://jenkins.io/
+    urls:
+    - https://saimohansai.github.io/k8sb06-helm-charts/jenkins-11.0.5.tgz
+    version: 11.0.5
+generated: "2022-10-06T10:56:47.770817159+05:30"
