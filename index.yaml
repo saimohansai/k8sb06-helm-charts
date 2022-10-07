@@ -3,7 +3,17 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-07T22:53:10.873983905+05:30"
+    created: "2022-10-07T23:09:24.565710538+05:30"
+    description: A Helm chart for Kubernetes
+    digest: db8c7321c76008f9da7aa77828483700e13cc34b32c0b70ac461e89bb111679c
+    name: mychart
+    type: application
+    urls:
+    - https://saimohansai.github.io/k8sb06-helm-charts/mychart-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-07T23:09:24.565148159+05:30"
     description: A Helm chart for Kubernetes
     digest: 602985571e6cb46aae5186917f4489e5d1f8e42338c6c08502d7e4730e83823d
     name: mychart
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-07T22:53:10.873568186+05:30"
+    created: "2022-10-07T23:09:24.56452982+05:30"
     description: A Helm chart for Kubernetes
     digest: 0575d9c809ab80a7d679a3fe7911d45d064bcf5c033a4a7377d930d2fcb4e41c
     name: mychart
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://saimohansai.github.io/k8sb06-helm-charts/mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-07T22:53:10.87302046+05:30"
+generated: "2022-10-07T23:09:24.563739667+05:30"
